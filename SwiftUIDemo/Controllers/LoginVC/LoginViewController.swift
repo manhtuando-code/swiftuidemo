@@ -17,7 +17,7 @@ class LoginViewController: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        parent?.navigationItem.title = "tuandz"
+        parent?.navigationItem.title = "tuandzvcllllllll"
     }
     
     
