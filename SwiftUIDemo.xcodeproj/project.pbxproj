@@ -11,6 +11,14 @@
 		9E27C08A282B890700025673 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E27C089282B890700025673 /* ContentView.swift */; };
 		9E27C08C282B890800025673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C08B282B890800025673 /* Assets.xcassets */; };
 		9E27C08F282B890800025673 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C08E282B890800025673 /* Preview Assets.xcassets */; };
+		9EDB304B282E2C300034E53C /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EDB3049282E2C300034E53C /* LoginViewController.xib */; };
+		9EDB304C282E2C300034E53C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDB304A282E2C300034E53C /* LoginViewController.swift */; };
+		9EDB3050282E30780034E53C /* LoginViewControllerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDB304F282E30780034E53C /* LoginViewControllerRepresentable.swift */; };
+		9EDB3053282E3C6B0034E53C /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDB3052282E3C6B0034E53C /* UserView.swift */; };
+		9EDEDFF1282FBA1F00D9E693 /* MyColorUISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDEDFF0282FBA1F00D9E693 /* MyColorUISlider.swift */; };
+		9EDEDFF42830AC5700D9E693 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDEDFF32830AC5700D9E693 /* AvatarView.swift */; };
+		9EDEDFF62830AC7200D9E693 /* AvatarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EDEDFF52830AC7200D9E693 /* AvatarView.xib */; };
+		9EDF034B2830BDB300CE9361 /* MyAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDF034A2830BDB300CE9361 /* MyAvatar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		9E27C089282B890700025673 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9E27C08B282B890800025673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E27C08E282B890800025673 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9EDB3049282E2C300034E53C /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		9EDB304A282E2C300034E53C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9EDB304F282E30780034E53C /* LoginViewControllerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerRepresentable.swift; sourceTree = "<group>"; };
+		9EDB3052282E3C6B0034E53C /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		9EDEDFF0282FBA1F00D9E693 /* MyColorUISlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColorUISlider.swift; sourceTree = "<group>"; };
+		9EDEDFF32830AC5700D9E693 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		9EDEDFF52830AC7200D9E693 /* AvatarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AvatarView.xib; sourceTree = "<group>"; };
+		9EDF034A2830BDB300CE9361 /* MyAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAvatar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +67,9 @@
 		9E27C086282B890700025673 /* SwiftUIDemo */ = {
 			isa = PBXGroup;
 			children = (
-				9E27C087282B890700025673 /* SwiftUIDemoApp.swift */,
-				9E27C089282B890700025673 /* ContentView.swift */,
+				9EDB304D282E30070034E53C /* Controllers */,
+				9EDB3047282E2BF00034E53C /* Views */,
+				9EDB3046282E2BD40034E53C /* App */,
 				9E27C08B282B890800025673 /* Assets.xcassets */,
 				9E27C08D282B890800025673 /* Preview Content */,
 			);
@@ -65,6 +82,69 @@
 				9E27C08E282B890800025673 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9EDB3046282E2BD40034E53C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9E27C087282B890700025673 /* SwiftUIDemoApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9EDB3047282E2BF00034E53C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9EDEDFF22830AC4100D9E693 /* AvatarView */,
+				9EDB3051282E3C4D0034E53C /* UserView */,
+				9EDB304E282E30450034E53C /* LoginView */,
+				9E27C089282B890700025673 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9EDB3048282E2C300034E53C /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				9EDB3049282E2C300034E53C /* LoginViewController.xib */,
+				9EDB304A282E2C300034E53C /* LoginViewController.swift */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		9EDB304D282E30070034E53C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9EDB3048282E2C300034E53C /* LoginVC */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9EDB304E282E30450034E53C /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				9EDB304F282E30780034E53C /* LoginViewControllerRepresentable.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		9EDB3051282E3C4D0034E53C /* UserView */ = {
+			isa = PBXGroup;
+			children = (
+				9EDB3052282E3C6B0034E53C /* UserView.swift */,
+				9EDEDFF0282FBA1F00D9E693 /* MyColorUISlider.swift */,
+			);
+			path = UserView;
+			sourceTree = "<group>";
+		};
+		9EDEDFF22830AC4100D9E693 /* AvatarView */ = {
+			isa = PBXGroup;
+			children = (
+				9EDEDFF32830AC5700D9E693 /* AvatarView.swift */,
+				9EDEDFF52830AC7200D9E693 /* AvatarView.xib */,
+				9EDF034A2830BDB300CE9361 /* MyAvatar.swift */,
+			);
+			path = AvatarView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +206,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E27C08F282B890800025673 /* Preview Assets.xcassets in Resources */,
+				9EDEDFF62830AC7200D9E693 /* AvatarView.xib in Resources */,
 				9E27C08C282B890800025673 /* Assets.xcassets in Resources */,
+				9EDB304B282E2C300034E53C /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +219,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EDEDFF1282FBA1F00D9E693 /* MyColorUISlider.swift in Sources */,
+				9EDB304C282E2C300034E53C /* LoginViewController.swift in Sources */,
+				9EDEDFF42830AC5700D9E693 /* AvatarView.swift in Sources */,
+				9EDB3050282E30780034E53C /* LoginViewControllerRepresentable.swift in Sources */,
+				9EDB3053282E3C6B0034E53C /* UserView.swift in Sources */,
 				9E27C08A282B890700025673 /* ContentView.swift in Sources */,
+				9EDF034B2830BDB300CE9361 /* MyAvatar.swift in Sources */,
 				9E27C088282B890700025673 /* SwiftUIDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

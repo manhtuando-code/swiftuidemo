@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0CBF0395-3B61-4D83-A2E1-2E8E412BA632"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "24ED44F4-1BB0-4086-AC3A-0CF322411F06"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUIDemo/Views/UserView/MyColorUISlider.swift"
+            startingColumnNumber = "77"
+            endingColumnNumber = "94"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "makeUIView(context:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
